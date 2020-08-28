@@ -350,7 +350,7 @@
                     </entry>
                 </properties>
                 <runDurationMillis>0</runDurationMillis>
-                <schedulingPeriod>5 sec</schedulingPeriod>
+                <schedulingPeriod>1 sec</schedulingPeriod>
                 <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
                 <yieldDuration>1 sec</yieldDuration>
             </config>
@@ -806,5 +806,5 @@ if ( flowFile != null )
             <type>org.apache.nifi.processors.script.ExecuteScript</type>
         </processors>
     </snippet>
-    <timestamp>08/28/2020 13:09:20 CAT</timestamp>
+    <timestamp>08/28/2020 16:30:47 CAT</timestamp>
 </template>
